@@ -210,7 +210,7 @@ After setting the flags for the safety of a potential lane change, another check
 ```
 if (near_front_vehicle) {
 
-    reference_velocity -= 0.2;
+    reference_velocity -= 0.22;
 
     if (left_lane_change) {
 
@@ -227,10 +227,10 @@ if (near_front_vehicle) {
     }
 
 }
-else if (reference_velocity < 45) 
+else if (reference_velocity < 50) 
 {
 
-    reference_velocity += 0.2;
+    reference_velocity += 0.22;
 
 }
 
