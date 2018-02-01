@@ -243,9 +243,11 @@ The last major component of the Path Planner is generating a trajectory for the 
 ### Results, Images, and Conclusion
 
 There were cases where the car would experience a collision based on the thresholds
-![result_1]()
+![result_1](https://github.com/umarqattan/Path-Planner/blob/master/images/result_1.png)
 
-![result_2]()
+![result_2](https://github.com/umarqattan/Path-Planner/blob/master/images/result_2.png)
+
+![result_3](https://github.com/umarqattan/Path-Planner/blob/master/images/result_3.png)
 
 
 Changing the thresholds from values between 10 and 50 helped the car better gauge its environment to avoid collisions. The back_threshold was set to 10 and the front_threshold was set to 50. To improve upon this project, it is necessary to add more checks to how the car plans to make a maneuver based on the neighboring cars (e.g. consider the future speed of the neighboring cars, whether the car is currently changing into a lane where a neighboring car may be changing into, or blind spot checks by varying the front and back thresholds dynamically).
